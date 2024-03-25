@@ -1,0 +1,32 @@
+
+.about-container {
+    display: flex;
+    justify-content: center; /* Center the content horizontally */
+    margin-top: 20px;
+    background-color: rgba(226, 163, 85, 0.9); /* Set background color with opacity */
+    padding: 20px; /* Add margin from the top */
+  }
+  
+  .image-container {
+    flex: 1; 
+  }
+  
+  .aboutimage {
+    width: 100%;
+    max-width: 600px; 
+    height: auto;
+    border-radius: 90%;
+  }
+  
+  .text-container {
+    flex: 2; /* Take up 50% of the width */
+    margin: 10px 30px 10px 50px; /* Add margin to separate the image and text */
+  }
+  
+ 
+  .text {
+    font-size: 30px; 
+    color: rgb(9, 9, 9);
+    font-family: Lato;
+  }
+  
